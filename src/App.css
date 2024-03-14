@@ -1,0 +1,77 @@
+.todo {
+    max-width: 700px;
+    margin: 70px auto;
+    border-left: 2px solid rgba(146, 146, 146, 0.1);
+    border-right: 2px solid rgba(146, 146, 146, 0.1);
+    border-bottom: 2px solid rgba(146, 146, 146, 0.1);
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+form {
+    padding: 15px 30px 15px 30px;
+}
+
+form input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid #DADEE3;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+form .button {
+    padding: 11px;
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: #0D6EFD;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.todo-wrapper {
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 15px 30px 15px 30px;
+}
+
+.todo-item {
+    border-bottom: 1px solid black;
+    padding: 0px 32px 0px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.block p {
+    margin-top: 18px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit {
+    color: #28A745;
+    cursor: pointer;
+}
+
+.del {
+    color: #DC3545;
+    cursor: pointer;
+}

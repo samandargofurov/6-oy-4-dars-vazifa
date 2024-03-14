@@ -1,6 +1,12 @@
+import "./Header.css";
+
 function Header() {
   return (
-    <p>Tod (5)</p>
+    <>
+      <div className="wrapper">
+        <p>Todos (0)</p>
+      </div>
+    </>
   )
 }
 
